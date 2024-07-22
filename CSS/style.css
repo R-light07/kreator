@@ -720,6 +720,10 @@ footer .container .content .social-icons a img {
 /*  Responsive */
 
 @media screen and (max-width: 720px) {
+    html {
+        overflow-x: hidden;
+    }
+    
     body {
         overflow-x: hidden;
     }
