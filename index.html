@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kreator</title>
+
+    <link rel="stylesheet" href="./CSS/style.css">
+
+    <link rel="stylesheet" href="./Assets/CSS/typing.css">
+
+    <link rel="stylesheet" href="./Assets/CSS/chat.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    
+    <!-- <script>
+        document.addEventListener('contextmenu', function (e){
+            e.preventDefault();
+        })
+    </script> -->
+
+</head>
+<body>
+    <header  class="nav-container">
+        <nav class="navbar">
+            <a href="#hero"><img class="nav-logo" src="./Assets/img/creativehub/cr3ator.png" alt="Logotipo da Code Creator"><span class="logo-color">R3ATOR</span></a>
+            <input type="checkbox" name="" id="trigger">
+            <label for="trigger" class="menu-bars">
+                <span class="bar-01"></span>
+                <span class="bar-02"></span>
+            </label>
+            <ul class="nav-menu">
+                <li><a href="#hero" class="nav-links">Início</a></li>
+                <li><a href="#about" class="nav-links">Acerca</a></li>
+                <li><a href="#services" class="nav-links">Serviços</a></li>
+                <li><a href="#contacts" class="nav-links">Contactos</a></li>
+                <li><a href="#suporte" class="nav-links nav-links-btn" id="chatbox-button">Suporte</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section>
+            <div class="hero" id="hero">             
+                <div class="hero-content">
+                    <h1 class="hero-title">Explore - Escolhe <span id="ifen">-</span> Prospere</h1>
+                    <span class="hero-subtitle">através dos nossos serviços de criação e hospedagem de sites</span>
+                    <ul>
+                        <li><span class="tick-up"></span><span class="tick-down"></span><span>Domínio (.com) Grátis</span></li>
+                        <!-- <li><span class="tick-up"></span><span class="tick-down"></span><span>Suporte 24/7</span></li> -->
+                        <li><span class="tick-up"></span><span class="tick-down"></span><span>Hospedagem</span></span>
+                    </ul>
+                    <a href="#">Contacte-Nos</a>
+                </div>
+                <div class="hero-img">
+                    <img id="hide-img" src="./Assets/img/hero.png" alt="">
+                    <img id="show-img" src="./Assets/img/internet-01.png" alt="">
+                    <div class="card">
+                        <div class="domain"><span class="com">.com</span></div>
+                        <div class="domain"><span class="co-mz">.co.mz</span></div>
+                        <div class="domain"><span class="tech">.tech</span></div>
+                        <div class="domain"><span class="net">.net</span></div>
+                    </div>
+                </div>
+            </div>
+            <div class="long-bar"></div>
+            <div class="long-bar-01"></div>
+        </section>
+        <section class="container">
+            <div class="content">
+                <div class="acerca" id="about">
+                    <div class="content-box">                   
+                        <div class="text">     
+                            <h2 class="main-title">Acerca de Nós</h2>
+                            <p>
+                                Bem-vindo à nossa página, onde oferecemos soluções completas para todas as suas necessidades digitais.
+                                Nosso objectivo é proporcionar uma experiência online robusta e eficiente, desde o desenvolvimento de websites,
+                                aplicações, até a gestão da infraestrutura de rede e criação de conteúdo digital para alavancar a sua presença online.
+                            </p>
+                        </div>
+                        <div class="img">
+                            <img src="./Assets/img/desktop.png" alt="">
+                        </div>
+                    </div>            
+                </div>
+            </di>
+        </section>
+        <section class="container">
+            <div class="content"  id="services">
+                <h2 class="main-title">
+                    Nossos Serviços
+                </h2>
+                <div class="cards">
+                    <div class="price-card">
+                        <span class="title">
+                            Desenvolvimento De Websites
+                        </span>
+                        <img src="./Assets/img/webdev.png" alt="">
+                        <span class="text">
+                            Criamos sites modernos, responsivos e personalizados para atender às necessidades do seu negócio, garantido
+                            uma experiencia do utilizador impecável.
+                        </span>
+                        <a href="./webservices.html">Ver Detalhes</a>   
+                    </div>
+                    <div class="price-card">
+                        <span class="title">
+                            Administração De Redes
+                        </span>
+                        <img src="./Assets/img/network.png" alt="">
+                        <span class="text">
+                            Oferecemos soluções completas de administração de redes, garantindo conectividade segura, rápida e eficiente
+                            para sua empresa.
+                        </span>
+                        <a href="#">Ver Detalhes</a>
+                    </div>
+                    <div class="price-card">
+                        <span class="title">
+                            Emails Corporativos
+                        </span>
+                        <img src="./Assets/img/mail.png" alt="">
+                        <span class="text">
+                            Configuramos e gerimos sistemas de email corporativo, proporcionando comunicação profissional, segura e
+                            fiável.
+                        </span>
+                        <a href="#">Ver Detalhes</a>
+                    </div>
+                </div>
+                <div class="cards">
+                    <div class="price-card">
+                        <span class="title">
+                            Serviços Cloud
+                        </span>
+                        <img src="./Assets/img/cloud.png" alt="">
+                        <span class="text">
+                            Fornecemos serviços cloud para armazenamento, backup e gestão de dados, garantindo acesso seguro
+                            e flexível a partir de qualquer lugar.
+                        </span>
+                        <a href="#">Ver Detalhes</a>
+                    </div>
+                    <div class="price-card">
+                        <span class="title">
+                            Design Gráfico
+                        </span>
+                        <img src="./Assets/img/design.png" alt="">
+                        <span class="text">
+                            Desenvolvemos elementos visuais impactantes, como logotipos, materiais de marketing e identidade
+                            visual, para fortalecer a imagem da sua marca.
+                        </span>
+                        <a href="#">Ver Detalhes</a>
+                    </div>
+                    <div class="price-card">
+                        <span class="title">
+                            Suporte Técnico
+                        </span>
+                        <img src="./Assets/img/support.png" alt="">
+                        <span class="text">
+                            Oferecemos suporte técnico especializado para resolver rapidamente problemas de TI, minimizando
+                            downtime e mantendo seus sistemas operacionais e sem interrupções.
+                        </span>
+                        <a href="#">Ver Detalhes</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="special">        
+            <span class="s-title">
+                Confie em nós para fornecer soluções integradas e personalizadas que entendam às necessidades específicas. Entre em contacto connosco hoje
+                para saber como podemos ajudar a levar a sua presença digital e infraestrutura de TI para próximo nível.
+            </span>
+        </section>
+        <section class="wetalk" id="suporte">        
+            <form action="">
+                <div class="t_area">
+                    <span>Nome</span>
+                    <input type="text" name="fname">
+                    <span>Email</span>
+                    <input type="text" name="email">
+                </div>
+                <div class="t_area">
+                    <span>Mensagem</span>
+                    <textarea name="comments" id="" cols="80" rows="10"></textarea>
+                </div>
+                <div class="submit_btn">                    
+                    <input type="submit" name="submit" value="Submeta">
+                    <input type="reset" value="Limpar">
+                </div>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <div class="container" id="contacts">
+            <div class="content">                
+                <div id="about">
+                    <a href="#hero" class="logo">
+                            <img src="./Assets/img/creativehub/cr3ator.png" alt="">
+                            <span class="logo-color">R3ATOR</span>
+                    </a>
+                    <span>
+                        Nossa empresa se dedica a fornecer soluções completas de desenvolvimento de websites, hospedagem,
+                        administração de redes, design gráfico e suporte. Nosso objectivo é ajudar a sua empresa a alcançar
+                        sucesso digital com serviços personalizados e de alta qualidade.
+                    </span>
+                    <div class="social-icons">
+                        <a href=""><img src="./Assets/img/socialicons/instagram.svg" alt=""></a>
+                        <a href=""><img src="./Assets/img/socialicons/whatsapp.svg" alt=""></a>
+                    </div>
+                </div>
+                <div>
+                    <div class="links">
+                        <span class="title">Navegação</span>
+                        <ul>
+                            <li><a href="#hero">Início</a></li>
+                            <li><a href="#about">Acerca</a></li>
+                            <li><a href="#services">Serviços</a></li>
+                        </ul>
+                    </div>    
+                </div>
+                <div>
+                    <div class="links">
+                        <span class="title">Links Úteis</span>
+                        <ul>
+                            <li><a href="#">Política de Privacidade</a></li>
+                            <li><a href="#">Termos de Serviço</a></li>
+                            <li><a href="#">Suporte</a></li>
+                            <li><a href="">Blog</a></li>
+                        </ul>
+                    </div>  
+                </div>
+                <div>
+                    <div class="links">
+                        <span class="title">Contacte-Nos</span>
+                        <ul>
+                            <li><span>Email: Info@kreator.tech</span></li>
+                            <li><span>Telefone: +258 874855635</span></li>
+                            <li><span>Endereço: Av. Maria de Lurdes Mutola, Q.92, C.9</span></li>
+                        </ul>
+                    </div>    
+                </div>                
+            </div>
+            <hr>
+            <div class="bottom">
+                <div class="copyright">
+                    <span>
+                        &copy; 2024 - <script>document.write(new Date().getFullYear())</script> kreator.tech
+                    </span>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script>
+        // Get the navbar element
+        var navbar = document.getElementById('navbar');
+
+        // Listen for scroll events
+        window.addEventListener('scroll', function() {
+            // Add or remove the 'navbar-shadow' class based on scroll position
+            if (window.scrollY > 0) {
+                navbar.classList.add('navbar-shadow');
+            } else {
+                navbar.classList.remove('navbar-shadow');
+            }
+        });
+
+        document.onkeydown = function(event) {
+            if (event.keyCode == 44) {
+                alert("Please do not take screenshots of this webpage.");
+            }
+        };
+    </script>
+    <script>            
+            function openChat() {
+                window.open("https://wa.me/+258874855635", "chat", "width=600,height=800");
+            }
+    </script>
+    <script src="./JS/app.js"></script>
+    <script src="./Assets/JS/Chat.js"></script>
+    <script src="./Assets/JS/app.js"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+</body>
+</html>
